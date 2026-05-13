@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rieder Kebaphaus – Frisch. Authentisch. Unwiderstehlich.</title>
+  <meta name="description" content="Rieder Kebaphaus in Ried – authentische türkische Küche: Döner, Dürüm, Pizza, Lahmacun & mehr. Jetzt online bestellen oder abholen!" />
+  <meta name="keywords" content="Rieder Kebaphaus, Döner Ried, Kebab Ried, Türkisch Ried, Lieferservice Ried, Pizza Ried" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<!-- ========================================================
+     FLOATING ORDER BUTTON
+     ======================================================== -->
+<a href="https://www.lieferando.de/speisekarte/rieder-kebaphaus" target="_blank" rel="noopener" id="floating-order">
+  🛵 Jetzt bestellen
+</a>
+
+<!-- ========================================================
+     NAVIGATION
+     ======================================================== -->
+<header id="site-header">
+  <a class="nav-logo" href="#hero">Rieder <span>Kebaphaus</span></a>
+  <nav>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">Über uns</a></li>
+      <li><a href="#menu">Speisekarte</a></li>
+      <li><a href="#reviews">Bewertungen</a></li>
+      <li><a href="#info">Öffnungszeiten</a></li>
+      <li><a href="#map">Anfahrt</a></li>
+      <li><a href="https://www.lieferando.de/speisekarte/rieder-kebaphaus" target="_blank" class="nav-cta">Bestellen</a></li>
+    </ul>
+    <div class="nav-hamburger" id="nav-hamburger" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+</header>
+
+<!-- ========================================================
+     HERO
+     ======================================================== -->
+<section id="hero">
+  <div class="hero-bg">
+    <div class="hero-glow"></div>
+  </div>
+  <div class="container hero-content">
+    <div class="hero-badge">🔥 Jetzt geöffnet · Ried, Bayern</div>
+    <h1 class="hero-title">
+      Frisch.<br>
+      <span class="line2">Authentisch.</span>
+      <span class="line3">Unwiderstehlich.</span>
+    </h1>
+    <p class="hero-desc">
+      Herzlich willkommen im Rieder Kebaphaus – wo echte türkische Küche auf bayerische Gastfreundschaft trifft. Döner, Dürüm, Pizza und mehr – frisch zubereitet, direkt zu dir.
+    </p>
+    <div class="hero-actions">
+      <a href="https://www.lieferando.de/speisekarte/rieder-kebaphaus" target="_blank" rel="noopener" class="btn-primary">
+        🛵 Online bestellen
+      </a>
+      <a href="#menu" class="btn-secondary">
+        📋 Speisekarte ansehen
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-number">4.5★</div>
+        <div class="stat-label">Google Bewertung</div>
+      </div>
+      <div>
+        <div class="stat-number">50+</div>
+        <div class="stat-label">Gerichte</div>
+      </div>
+      <div>
+        <div class="stat-number">🕌</div>
+        <div class="stat-label">Halal zertifiziert</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================
+     FEATURES TICKER
+     ======================================================== -->
+<div id="features-strip">
+  <div class="features-ticker" id="ticker">
+    <!-- Filled by JS -->
+  </div>
+</div>
+
+<!-- ========================================================
+     ABOUT
+     ======================================================== -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-images reveal">
+        <div class="img-card img-card-1">
+          <img src="https://images.unsplash.com/photo-1561651188-d207bbec4ec3?w=700&q=80" alt="Frischer Döner" loading="lazy" />
+          <div class="img-caption">hier könnten Ihre Bilder sein</div>
+        </div>
+        <div class="img-card img-card-2 reveal reveal-delay-2">
+          <img src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=500&q=80" alt="Lahmacun" loading="lazy" />
+          <div class="img-caption">hier könnten Ihre Bilder sein</div>
+        </div>
+      </div>
+
+      <div>
+        <span class="section-label reveal">Über uns</span>
+        <h2 class="section-title reveal reveal-delay-1">
+          Türkische Küche mit <span>Herzblut</span>
+        </h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          Das Rieder Kebaphaus in der Bachernstraße 1 ist der Treffpunkt für alle, die frische, authentische türkische Gerichte lieben. Von klassischen Döner-Varianten über knusprige Pides bis hin zu saftigen Tellergerichten – bei uns wird jeder Hunger gestillt.
+        </p>
+        <div class="about-features">
+          <div class="about-feature reveal reveal-delay-1">
+            <div class="feature-icon">🥩</div>
+            <div class="feature-text">
+              <h4>Frisches Fleisch täglich</h4>
+              <p>Kalbfleisch, Hähnchen und Döner – täglich frisch zubereitet und gewürzt nach Familienrezept.</p>
+            </div>
+          </div>
+          <div class="about-feature reveal reveal-delay-2">
+            <div class="feature-icon">🌱</div>
+            <div class="feature-text">
+              <h4>Vegetarische Optionen</h4>
+              <p>Falafel, Halloumi, Spinat-Pide – für alle, die auf Fleisch verzichten möchten.</p>
+            </div>
+          </div>
+          <div class="about-feature reveal reveal-delay-3">
+            <div class="feature-icon">🛵</div>
+            <div class="feature-text">
+              <h4>Schnelle Lieferung & Takeaway</h4>
+              <p>Bestell bequem online via Lieferando oder hol direkt ab – Parkplätze vorhanden.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================
+     MENU
+     ======================================================== -->
+<section id="menu" class="section section--cream">
+  <div class="container">
+    <span class="section-label reveal">Unsere Speisekarte</span>
+    <h2 class="section-title reveal reveal-delay-1">Was darf es <span>heute</span> sein?</h2>
+    <p class="section-subtitle reveal reveal-delay-2">Wähle aus einer großen Auswahl an frisch zubereiteten Gerichten – vom herzhaften Döner bis zur knusprigen Pizza.</p>
+
+    <div class="menu-tabs reveal reveal-delay-3" id="menu-tabs">
+      <!-- Filled by JS -->
+    </div>
+    <div id="menu-panels">
+      <!-- Filled by JS -->
+    </div>
+
+    <div class="menu-cta reveal">
+      <a href="https://www.lieferando.de/speisekarte/rieder-kebaphaus" target="_blank" rel="noopener" class="btn-primary">
+        🛵 Vollständige Speisekarte & Online-Bestellung
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================
+     GALLERY
+     ======================================================== -->
+<section id="gallery" class="section">
+  <div class="container">
+    <span class="section-label reveal">Einblicke</span>
+    <h2 class="section-title reveal reveal-delay-1">Bilder die den <span>Hunger wecken</span></h2>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=900&q=80" alt="Kebab Spezialität" loading="lazy" />
+        <div class="gallery-overlay"><span class="gallery-caption">hier könnten Ihre Bilder sein</span></div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-1">
+        <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&q=80" alt="Dürüm Wrap" loading="lazy" />
+        <div class="gallery-overlay"><span class="gallery-caption">hier könnten Ihre Bilder sein</span></div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-2">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=80" alt="Pizza" loading="lazy" />
+        <div class="gallery-overlay"><span class="gallery-caption">hier könnten Ihre Bilder sein</span></div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-1">
+        <img src="https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=500&q=80" alt="Falafel Teller" loading="lazy" />
+        <div class="gallery-overlay"><span class="gallery-caption">hier könnten Ihre Bilder sein</span></div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-2">
+        <img src="https://images.unsplash.com/photo-1561651188-d207bbec4ec3?w=500&q=80" alt="Lahmacun" loading="lazy" />
+        <div class="gallery-overlay"><span class="gallery-caption">hier könnten Ihre Bilder sein</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================
+     REVIEWS
+     ======================================================== -->
+<section id="reviews" class="section section--dark">
+  <div class="container">
+    <span class="section-label reveal">Das sagen unsere Gäste</span>
+    <h2 class="section-title reveal reveal-delay-1" style="color:var(--white)">
+      Echte <span>Bewertungen</span>
+    </h2>
+
+    <div class="reviews-grid" id="reviews-grid">
+      <!-- Filled by JS -->
+    </div>
+
+    <div class="review-powered reveal">
+      <div class="google-g">G</div>
+      Bewertungen via Google · <a href="https://g.page/rieder-kebaphaus" target="_blank" rel="noopener" style="color:var(--gold)">Alle Bewertungen ansehen</a>
+    </div>
+
+    <!-- Google Reviews Widget (embed placeholder) -->
+    <div style="margin-top:48px; text-align:center;" class="reveal">
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:32px;display:inline-block;max-width:480px;width:100%;">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+          <div class="google-g" style="width:32px;height:32px;font-size:1rem;">G</div>
+          <div style="text-align:left;">
+            <div style="color:#fff;font-weight:600;font-size:0.95rem;">Rieder Kebaphaus</div>
+            <div style="color:rgba(255,255,255,0.4);font-size:0.78rem;">Google Bewertungen</div>
+          </div>
+        </div>
+        <div style="font-size:2rem;margin-bottom:8px;">⭐⭐⭐⭐⭐</div>
+        <div style="color:var(--gold);font-family:'Playfair Display',serif;font-size:2.4rem;font-weight:900;">4,5</div>
+        <div style="color:rgba(255,255,255,0.4);font-size:0.82rem;margin-top:4px;">Basierend auf Google-Bewertungen</div>
+        <a href="https://search.google.com/local/reviews?placeid=ChIJrieder-kebaphaus" target="_blank" rel="noopener"
+           style="display:inline-block;margin-top:20px;background:var(--fire);color:#fff;padding:10px 24px;border-radius:6px;font-size:0.82rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;">
+          Jetzt bewerten
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================
+     OPENING HOURS & CONTACT INFO
+     ======================================================== -->
+<section id="info" class="section section--cream">
+  <div class="container">
+    <div class="info-grid">
+      <div>
+        <span class="section-label reveal">Öffnungszeiten</span>
+        <h2 class="section-title reveal reveal-delay-1">Wann sind wir <span>für dich da?</span></h2>
+        <ul class="hours-list reveal reveal-delay-2" id="hours-list">
+          <!-- Filled by JS -->
+        </ul>
+      </div>
+      <div>
+        <span class="section-label reveal">Kontakt & Anfahrt</span>
+        <h2 class="section-title reveal reveal-delay-1">So erreichst <span>du uns</span></h2>
+        <div class="contact-items reveal reveal-delay-2" id="contact-items">
+          <!-- Filled by JS -->
+        </div>
+        <div style="margin-top:32px;" class="reveal reveal-delay-3">
+          <a href="https://www.lieferando.de/speisekarte/rieder-kebaphaus" target="_blank" rel="noopener" class="btn-primary">
+            🛵 Jetzt online bestellen
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================
+     GOOGLE MAPS
+     ======================================================== -->
+<div id="map">
+  <div class="map-wrapper">
+    <div class="map-label">
+      <h4>📍 Rieder Kebaphaus</h4>
+      <p>Bachernstraße 1<br>86510 Ried, Bayern</p>
+      <a href="https://maps.google.com/?q=Bachernstra%C3%9Fe+1,+86510+Ried" target="_blank" rel="noopener">
+        Route planen →
+      </a>
+    </div>
+    <div class="map-iframe-wrap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2642.21!2d10.8826!3d48.2456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f376b5b12abf3%3A0x4bf28c79b9ee8fe3!2sBachernstra%C3%9Fe%201%2C%2086510%20Ried!5e0!3m2!1sde!2sde!4v1716000000000!5m2!1sde!2sde"
+        width="100%"
+        height="440"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Rieder Kebaphaus Standort">
+      </iframe>
+    </div>
+  </div>
+</div>
+
+<!-- ========================================================
+     SOCIAL MEDIA
+     ======================================================== -->
+<section id="social" class="section">
+  <div class="container" style="text-align:center;">
+    <span class="section-label reveal">Social Media</span>
+    <h2 class="section-title reveal reveal-delay-1">Folg uns auf <span>Social Media</span></h2>
+    <p class="section-subtitle reveal reveal-delay-2" style="margin:0 auto 0;">Bleib immer auf dem Laufenden – Aktionen, Neuigkeiten und mehr auf unseren Kanälen.</p>
+
+    <div class="social-grid reveal reveal-delay-3">
+      <a href="https://www.facebook.com/p/Rieder-Kebaphaus-61571478636097/" target="_blank" rel="noopener" class="social-card">
+        <div class="social-icon">📘</div>
+        <div>
+          <div class="social-name">Facebook</div>
+          <div class="social-handle">Rieder Kebaphaus</div>
+        </div>
+      </a>
+      <a href="https://www.lieferando.de/speisekarte/rieder-kebaphaus" target="_blank" rel="noopener" class="social-card">
+        <div class="social-icon">🛵</div>
+        <div>
+          <div class="social-name">Lieferando</div>
+          <div class="social-handle">Online bestellen</div>
+        </div>
+      </a>
+      <a href="https://www.rieder-kebaphaus.de" target="_blank" rel="noopener" class="social-card">
+        <div class="social-icon">🌐</div>
+        <div>
+          <div class="social-name">Website</div>
+          <div class="social-handle">rieder-kebaphaus.de</div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Facebook Page Plugin embed -->
+    <div class="fb-embed-wrapper reveal">
+      <div style="padding:24px;text-align:center;">
+        <div id="fb-root"></div>
+        <div class="fb-page"
+          data-href="https://www.facebook.com/p/Rieder-Kebaphaus-61571478636097/"
+          data-tabs="timeline"
+          data-width="500"
+          data-height="400"
+          data-small-header="true"
+          data-adapt-container-width="true"
+          data-hide-cover="false"
+          data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/p/Rieder-Kebaphaus-61571478636097/" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/p/Rieder-Kebaphaus-61571478636097/">Rieder Kebaphaus auf Facebook</a>
+          </blockquote>
+        </div>
+        <p style="font-size:0.75rem;color:var(--text-muted);margin-top:12px;">Folg uns auf Facebook für aktuelle Neuigkeiten & Aktionen!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Facebook SDK -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v17.0">
+</script>
+
+<!-- ========================================================
+     ORDER BANNER
+     ======================================================== -->
+<section id="order-banner">
+  <div class="container" style="position:relative;z-index:2;">
+    <span class="section-label">Hunger?</span>
+    <h2 class="section-title">Jetzt frisch bestellen<br>& genießen</h2>
+    <p class="section-subtitle">Schnelle Lieferung nach Ried und Umgebung – oder einfach abholen!</p>
+    <a href="https://www.lieferando.de/speisekarte/rieder-kebaphaus" target="_blank" rel="noopener" class="btn-white">
+      🛵 Auf Lieferando bestellen
+    </a>
+  </div>
+</section>
+
+<!-- ========================================================
+     FOOTER
+     ======================================================== -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="nav-logo" href="#hero">Rieder <span>Kebaphaus</span></a>
+        <p>Authentische türkische Küche in Ried, Bayern. Frische Zutaten, traditionelle Rezepte, herzliche Atmosphäre.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Speisekarte</h5>
+        <ul>
+          <li><a href="#menu">Sandwiches & Döner</a></li>
+          <li><a href="#menu">Dürüm</a></li>
+          <li><a href="#menu">Pizza</a></li>
+          <li><a href="#menu">Tellergerichte</a></li>
+          <li><a href="#menu">Lahmacun & Pide</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Kontakt</h5>
+        <ul>
+          <li><a href="tel:+4982335750">📞 +49 8233 5750</a></li>
+          <li><a href="https://maps.google.com/?q=Bachernstra%C3%9Fe+1,+86510+Ried" target="_blank">📍 Bachernstraße 1, 86510 Ried</a></li>
+          <li><a href="https://www.lieferando.de/speisekarte/rieder-kebaphaus" target="_blank">🛵 Lieferando Bestellung</a></li>
+          <li><a href="https://www.facebook.com/p/Rieder-Kebaphaus-61571478636097/" target="_blank">📘 Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Rieder Kebaphaus · Bachernstraße 1, 86510 Ried</span>
+      <span>Mit ❤️ gemacht in Ried</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ========================================================
+     JAVASCRIPT
+     ======================================================== -->
+<script>
+/* ---- Load data from JSON ---- */
+async function loadData() {
+  try {
+    const resp = await fetch('data.json');
+    return (await resp.json()).restaurant;
+  } catch {
+    // Inline fallback if fetch not available
+    return null;
+  }
+}
+
+const INLINE_DATA = {
+  opening_hours: [
+    { day: "Montag",     hours: "11:00 – 22:00" },
+    { day: "Dienstag",   hours: "11:00 – 22:00" },
+    { day: "Mittwoch",   hours: "11:00 – 22:00" },
+    { day: "Donnerstag", hours: "11:00 – 22:00" },
+    { day: "Freitag",    hours: "11:00 – 23:00" },
+    { day: "Samstag",    hours: "11:00 – 23:00" },
+    { day: "Sonntag",    hours: "12:00 – 22:00" }
+  ],
+  menu: [
+    { category: "Sandwiches & Döner", icon: "🥙", items: [
+        { name: "Kalbfleisch Spezial Döner", price: "10,50 €", desc: "Mit Halloumi und frischem Gemüse" },
+        { name: "Hähnchen Döner", price: "8,50 €", desc: "Zart gegrilltes Hähnchenfleisch" },
+        { name: "Döner Spezial", price: "9,50 €", desc: "Mit Halloumi" },
+        { name: "Falafel Sandwich", price: "8,50 €", desc: "Vegetarisch, knusprig und lecker" },
+        { name: "Halloumi Sandwich", price: "8,50 €", desc: "Mit gegrilltem Grillkäse" }
+    ]},
+    { category: "Dürüm", icon: "🌯", items: [
+        { name: "Kalbfleisch Spezial Dürüm", price: "11,50 €", desc: "Im Fladenbrot gerollt" },
+        { name: "Hähnchen Dürüm", price: "9,90 €", desc: "Zart und würzig" },
+        { name: "Falafel Dürüm", price: "9,50 €", desc: "Vegetarisch" },
+        { name: "Halloumi Dürüm", price: "9,50 €", desc: "Mit Grillkäse" }
+    ]},
+    { category: "Pizza", icon: "🍕", items: [
+        { name: "Pizza Rieder", price: "13,50 €", desc: "Mit Dönerfleisch, Zwiebeln, Weichkäse & Tomaten" },
+        { name: "Pizza Döner", price: "12,00 €", desc: "Mit Dönerfleisch" },
+        { name: "Pizza Spezial", price: "12,50 €", desc: "Mit Sucuk, Zwiebeln & Champignons" },
+        { name: "Pizza Margherita", price: "9,50 €", desc: "Der Klassiker" },
+        { name: "Pizza Mexico", price: "12,50 €", desc: "Hähnchen, Mais, Paprika, Zwiebeln" }
+    ]},
+    { category: "Tellergerichte", icon: "🍽️", items: [
+        { name: "Kalbfleisch Teller", price: "15,00 €", desc: "Mit Salat und Beilage nach Wahl" },
+        { name: "Hähnchen Teller", price: "14,00 €", desc: "Mit Salat und Beilage nach Wahl" },
+        { name: "Falafel Teller", price: "13,00 €", desc: "Vegetarisch, mit Salat" },
+        { name: "Halloumi Teller", price: "13,00 €", desc: "Mit Grillkäse & Salat" }
+    ]},
+    { category: "Lahmacun & Pide", icon: "🫓", items: [
+        { name: "Lahmacun mit Dönerfleisch", price: "11,00 €", desc: "Mit frischem Salat" },
+        { name: "Lahmacun Classic", price: "7,00 €", desc: "Ohne Salat" },
+        { name: "Pide mit Sucuk", price: "13,50 €", desc: "Türkische Knoblauchwurst" },
+        { name: "Pide mit Spinat & Käse", price: "13,50 €", desc: "Vegetarisch" }
+    ]}
+  ],
+  reviews: [
+    { author: "Maximilian S.", rating: 5, text: "Bester Döner in der ganzen Region! Frisches Fleisch, leckere Soßen und super freundliches Personal.", date: "vor 2 Wochen" },
+    { author: "Sandra K.", rating: 5, text: "Die Pizza Rieder ist einfach unschlagbar. Schnelle Lieferung, alles noch warm. Sehr empfehlenswert!", date: "vor 1 Monat" },
+    { author: "Thomas B.", rating: 4, text: "Sehr gute Qualität, große Portionen und faire Preise. Der Kalbfleisch Teller ist ein Gedicht.", date: "vor 3 Wochen" },
+    { author: "Lena M.", rating: 5, text: "Als Vegetarierin bin ich begeistert vom Falafel Dürüm. Frisch zubereitet, tolle Zutaten.", date: "vor 1 Woche" }
+  ],
+  features: [
+    "🥙 Döner & Dürüm",
+    "🍕 Hausgemachte Pizza",
+    "🛵 Schnelle Lieferung",
+    "🥡 Takeaway verfügbar",
+    "🕌 Halal zertifiziert",
+    "🌱 Vegetarische Optionen",
+    "🅿️ Kostenloser Parkplatz",
+    "⭐ Top bewertet auf Google"
+  ],
+  contact: [
+    { icon: "📞", label: "Telefon", value: "+49 8233 5750", link: "tel:+4982335750" },
+    { icon: "📍", label: "Adresse", value: "Bachernstraße 1, 86510 Ried", link: "https://maps.google.com/?q=Bachernstra%C3%9Fe+1,+86510+Ried" },
+    { icon: "🛵", label: "Online bestellen", value: "Lieferando.de", link: "https://www.lieferando.de/speisekarte/rieder-kebaphaus" },
+    { icon: "📘", label: "Facebook", value: "Rieder Kebaphaus", link: "https://www.facebook.com/p/Rieder-Kebaphaus-61571478636097/" }
+  ]
+};
+
+/* ---- RENDER FUNCTIONS ---- */
+function renderTicker(features) {
+  const ticker = document.getElementById('ticker');
+  const items = [...features, ...features]; // double for seamless loop
+  ticker.innerHTML = items.map(f =>
+    `<span class="ticker-item"><span class="ticker-dot">✦</span>${f}</span>`
+  ).join('');
+}
+
+function renderMenu(menu) {
+  const tabs = document.getElementById('menu-tabs');
+  const panels = document.getElementById('menu-panels');
+
+  tabs.innerHTML = menu.map((cat, i) =>
+    `<button class="menu-tab ${i===0?'active':''}" onclick="switchTab(${i})" id="tab-${i}">
+      ${cat.icon} ${cat.category}
+    </button>`
+  ).join('');
+
+  panels.innerHTML = menu.map((cat, i) =>
+    `<div class="menu-panel ${i===0?'active':''}" id="panel-${i}">
+      ${cat.items.map(item =>
+        `<div class="menu-item">
+          <div>
+            <div class="menu-item-name">${item.name}</div>
+            <div class="menu-item-desc">${item.desc}</div>
+          </div>
+          <div class="menu-item-price">${item.price}</div>
+        </div>`
+      ).join('')}
+    </div>`
+  ).join('');
+}
+
+function switchTab(idx) {
+  document.querySelectorAll('.menu-tab').forEach((t,i) => t.classList.toggle('active', i===idx));
+  document.querySelectorAll('.menu-panel').forEach((p,i) => p.classList.toggle('active', i===idx));
+}
+
+function renderReviews(reviews) {
+  const grid = document.getElementById('reviews-grid');
+  grid.innerHTML = reviews.map(r =>
+    `<div class="review-card reveal">
+      <div class="review-stars">${'⭐'.repeat(r.rating)}</div>
+      <div class="review-text">"${r.text}"</div>
+      <div class="review-author">${r.author}</div>
+      <div class="review-date">${r.date}</div>
+    </div>`
+  ).join('');
+}
+
+function renderHours(hours) {
+  const today = ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'][new Date().getDay()];
+  const list = document.getElementById('hours-list');
+  list.innerHTML = hours.map(h =>
+    `<li class="hours-item ${h.day===today?'today':''}">
+      <span class="hours-day">${h.day}${h.day===today?' <span class="today-badge">Heute</span>':''}</span>
+      <span class="hours-time">${h.hours}</span>
+    </li>`
+  ).join('');
+}
+
+function renderContact(contact) {
+  const el = document.getElementById('contact-items');
+  el.innerHTML = contact.map(c =>
+    `<div class="contact-item">
+      <div class="contact-icon">${c.icon}</div>
+      <div>
+        <div class="contact-label">${c.label}</div>
+        <div class="contact-value"><a href="${c.link}" target="_blank" rel="noopener">${c.value}</a></div>
+      </div>
+    </div>`
+  ).join('');
+}
+
+/* ---- SCROLL ANIMATIONS ---- */
+function initReveal() {
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+}
+
+/* ---- HEADER SCROLL ---- */
+window.addEventListener('scroll', () => {
+  document.getElementById('site-header').classList.toggle('scrolled', window.scrollY > 60);
+  document.getElementById('floating-order').classList.toggle('visible', window.scrollY > 400);
+});
+
+/* ---- MOBILE NAV ---- */
+function toggleNav() {
+  const nav = document.getElementById('nav-links');
+  const isOpen = nav.style.display === 'flex';
+  nav.style.cssText = isOpen ? '' : 'display:flex;flex-direction:column;position:fixed;top:72px;left:0;right:0;background:rgba(26,18,8,0.97);padding:24px 32px;gap:20px;z-index:999;backdrop-filter:blur(16px);';
+}
+
+/* ---- INIT ---- */
+async function init() {
+  const data = await loadData() || {};
+  const d = { ...INLINE_DATA, ...data };
+
+  renderTicker(d.features);
+  renderMenu(d.menu);
+  renderReviews(d.reviews);
+  renderHours(d.opening_hours);
+  renderContact(d.contact);
+  setTimeout(initReveal, 100);
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>
